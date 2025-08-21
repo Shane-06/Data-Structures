@@ -43,7 +43,7 @@ void insertElement() {
     cin >> pos;
     if (pos < 1 || pos > n + 1) {
         cout << "Invalid position!\n";
-        return;
+        
     }
     cout << "Enter value to insert: ";
     cin >> value;
